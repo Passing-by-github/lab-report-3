@@ -128,3 +128,31 @@ Here's the final version of the method, bug-free:
     return newArray;
   }
 ```
+Part 2
+---
+Bash commands are a very powerful tool, used to interact with the computer, manage files, run programs, and perform various tasks. And to utilize it efficiently, we'll look into command-line agruments to place with the command.  
+I will be focusing on the command `grep`, which is like f+cntl, a way to find lines containing the words we want. I used chatgpt to find its arguments by asking it directly: What’s the command line options for grep?  
+It gave me a fairshare of arguments and I'll go through some of them here:
+
+1.  `-i or --ignore-case: Perform a case-insensitive search.`
+Without the arg: 
+```ruby
+fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
+$ grep "WE" chapter-1.txt
+"WE HAVE SOME PLANES"
+```
+```ruby
+fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
+$ grep -i "WE" chapter-1.txt
+"WE HAVE SOME PLANES"
+    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
+    For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed 
+Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
+    When he checked in for his flight to Boston, Atta was selected by a computerized prescreening system known as CAPPS (Computer Assisted Passenger 
+Prescreening System), created to identify passengers who should be subject to special security measures. Under security rules in place at the time, the only consequence of Atta's selection by CAPPS was that his checked bags were held off the plane until it was confirmed that he had boarded the aircraft. This did not hinder Atta's plans.
+    Between 6:45 and 7:40, Atta and Omari, along with Satam al Suqami, Wail al Shehri, and Waleed al Shehri, checked in and boarded American Airlines Flight 11, bound for Los Angeles. The flight was scheduled to depart at 7:45.
+    In another Logan terminal, Shehhi, joined by Fayez Banihammad, Mohand al Shehri, Ahmed al Ghamdi, and Hamza al Ghamdi, checked in for United Airlines Flight 175, also bound for Los Angeles. A couple of Shehhi's colleagues were obviously unused to travel; according to the United ticket agent, they had trouble understanding the standard security questions, and she had to go over them slowly until they gave the routine, reassuring answers.   
+    The security checkpoints through which passengers, including Atta and his colleagues, gained access to the American 11 gate were operated by Globe Security under a contract with American Airlines. In a different terminal, the single checkpoint through which passengers for United 175 passed was controlled by United Airlines, which had contracted with Huntleigh USA to perform the screening.
+...
+```
+2.  
