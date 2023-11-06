@@ -163,6 +163,8 @@ fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (m
 $ grep -i "preface" preface.txt
             PREFACE
 ```
+
+    
 2. `-v or --invert-match: Invert the match, i.e., select non-matching lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
@@ -256,6 +258,8 @@ $ grep -v "and" preface.txt
             Thomas H. Kean, chair
             Lee H. Hamilton, vice chair
 ```
+
+    
 3. `-l or --files-with-matches: Only list the names of files containing the pattern, not the actual matched lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
@@ -285,6 +289,8 @@ chapter-13.3.txt
 chapter-3.txt
 preface.txt
 ```
+
+   
 4. `-n or --line-number: Show line numbers for matched lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
