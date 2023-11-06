@@ -165,7 +165,7 @@ $ grep -i "preface" preface.txt
 ```
 
     
-2. `-v or --invert-match: Invert the match, i.e., select non-matching lines.`
+ 2. `-v or --invert-match: Invert the match, i.e., select non-matching lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
 $ grep -iv "We" preface.txt
@@ -260,7 +260,7 @@ $ grep -v "and" preface.txt
 ```
 
     
-3. `-l or --files-with-matches: Only list the names of files containing the pattern, not the actual matched lines.`
+ 3. `-l or --files-with-matches: Only list the names of files containing the pattern, not the actual matched lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
 $ grep -l "and" *.txt
@@ -291,7 +291,7 @@ preface.txt
 ```
 
    
-4. `-n or --line-number: Show line numbers for matched lines.`
+ 4. `-n or --line-number: Show line numbers for matched lines.`
 ```ruby
 fati2@LAPTOP-COMJ3VDF MINGW64 ~/Desktop/15l/GitHub/Week-5/technical/911report (main)
 $ grep -in "preface" *.txt
